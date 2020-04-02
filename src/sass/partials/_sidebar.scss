@@ -1,9 +1,25 @@
 .sidebar {
-    background-color: green;
+    background-color: grey;
     position: fixed;
     left: 0;
     height: 100%;
     top: 0; 
     z-index: auto;
     width: 188px;
+}
+.nav-link{
+    color: white;
+    text-align: left;
+}
+.nav-link img{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.navbar p{
+    color: white;
+}
+.pos-f-t{
+    color: black;
 }

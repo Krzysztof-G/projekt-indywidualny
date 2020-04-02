@@ -1,6 +1,6 @@
 .content{
-    height: 100%;
-    width: 100%;
+    height: 30%;
+    max-width: 88%;
     padding-top: 62px;
     padding-left: 188px;
     top: 0;
@@ -27,4 +27,11 @@
     border-top: grey solid 1px;
     border-bottom: grey solid 1px;
     height: 640px;
+}
+.top-chart{
+    text-align: center;
+}
+.calender{
+    text-align: center;
+    padding: 43px 0;
 }
