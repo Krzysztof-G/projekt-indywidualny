@@ -1,15 +1,64 @@
 .topbar{
     text-align: right;
     align-items: right;
-    background-color: red;
+    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
     height: 62px;
+    border-bottom: grey solid 1px;
 }
-.collapse{
-    padding-left: 800px;
+select{
+    border: 0;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    margin-top: 5px;
+    width: 130px;
 }
-.nav-link a{
-color: red;
+table{
+    height: 100%;
+    padding: 0;
+    float: right;  
+}
+table td{
+    text-align: center;
+    width: 200px;
+    margin: 0;
+    border-right: grey solid 1px;
+    border-left: grey solid 1px;
+}
+.coast i{
+    padding-left: 5px;
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
+}
+.bell{
+    padding-top: 4px;
+    width: 50px;
+    font-size: 30px;
+    border: none;
+}
+.logout{
+    padding-top: 4px;
+    width: 50px;
+    font-size: 30px;
+    border: none;
+}
+.user{
+    position: relative;
+}
+.user p{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+.user i{
+    padding-left: 5px;
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
 }

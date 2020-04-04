@@ -1,13 +1,12 @@
 .content{
-    height: 30%;
-    max-width: 88%;
-    padding-top: 62px;
+    padding-top: 70px;
     padding-left: 188px;
-    top: 0;
 }
 .top-chart{
+    padding-top: 12px;
     border-bottom: grey solid 1px;
     height: 47px;
+    text-align: left;
 }
 .center-chart{
     border-bottom: grey solid 1px;
@@ -27,9 +26,6 @@
     border-top: grey solid 1px;
     border-bottom: grey solid 1px;
     height: 640px;
-}
-.top-chart{
-    text-align: center;
 }
 .calender{
     text-align: center;

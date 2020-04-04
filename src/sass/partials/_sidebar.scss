@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: grey;
+    background-color: black;
     position: fixed;
     left: 0;
     height: 100%;
@@ -7,19 +7,36 @@
     z-index: auto;
     width: 188px;
 }
-.nav-link{
-    color: white;
+ul {
     text-align: left;
-}
-.nav-link img{
-    height: 30px;
-    width: 30px;
-    padding-right: 10px;
-}
-
-.navbar p{
     color: white;
+    text-decoration: none;
+    list-style-type:none;
+    padding-left: 0;
+    margin: 0;
+    a {
+        padding-left: 30px;
+        text-align: center;;
+        color: white;
+        text-decoration: none;
+    }
+    li {
+        padding: 20px 0;
+    }
 }
-.pos-f-t{
-    color: black;
+ul :nth-child(1){
+    padding: 5px;    
+}
+.side-nav p {
+    margin-top: 5px;
+    font-size: 30px;
+    i{
+        padding-left: 10px;
+    }
+}
+.side-item i{
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
 }
