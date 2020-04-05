@@ -25,34 +25,33 @@
             </tr>
         </table>
     </header>            
-    
     <header class="sidebar">
+        <div class="sidebar-title">
+            <p>Just do it<i class="fas fa-bars"></i></p>
+        </div>
         <ul class="side-nav">
             <li class="side-item">
-                <p>Just do it <i class="fas fa-bars"></i></p>
-            </li>  
-            <li class="side-item">
-                <i class="far fa-star"></i><a class="side-link" href="#">General</a></<i>
+                <a class="side-link" href="#"><i class="far fa-star"></i>General</a>
             </li>
             <li class="side-item">
-                <i class="fab fa-buromobelexperte"></i><a class="side-link" href="#">Details</a>
+               <a class="side-link" href="#"> <i class="fab fa-buromobelexperte"></i>Details</a>
             </li>
             <li class="side-item">
-                <i class="fas fa-link"></i><a class="side-link" href="#">Links</a>
+                <a class="side-link" href="#"><i class="fas fa-link"></i>Links</a>
             </li>
             <li class="side-item">
-                <i class="fas fa-grip-vertical"></i><a class="side-link" href="#">Banners</a>
+                <a class="side-link" href="#"><i class="fas fa-grip-vertical"></i>Banners</a>
             </li>
             <li class="side-item">
-                <i class="far fa-user"></i><a class="side-link" href="#">Personal data</a>
+                <a class="side-link" href="#"><i class="far fa-user"></i>Personal data</a>
             </li>
             <li class="side-item">
-                <i class="fas fa-dollar-sign"></i><a class="side-link" href="#">Payout</a>
+                <a class="side-link" href="#"><i class="fas fa-dollar-sign"></i>Payout</a>
             </li>
             <li class="side-item">
-                <i class="fas fa-retweet"></i><a class="side-link" href="#">Postback</a>
+               <a class="side-link" href="#"><i class="fas fa-retweet"></i>Postback</a>
             </li>
-          </ul>          
+        </ul>          
     </header>
     <section class="content">
         <div class="container">
@@ -63,8 +62,9 @@
                 <div class="center-chart">
                     <div class="calender">
                         <div class="date-picker">
-                            <input type="text" name="date">
-                            <input type="text" name="date">
+                            <input type="date" name="date" id="start" name="trip-start"
+                            value="2020-07-22"
+                            min="2020-01-01" max="2020-12-31">
                             <button class="refresh"><i class="fas fa-redo-alt"></i></button>
                         </div>
                     </div>

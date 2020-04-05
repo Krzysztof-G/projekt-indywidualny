@@ -50,6 +50,7 @@
     padding: 37px 0;
 }
 .new-links{
+    outline: none;
     font-family: Andale Mono, monospace;
     color: white;
     font-size: 25px;
@@ -57,7 +58,6 @@
     margin: 15px 0;
     padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px 0 black;
 }
 .button-links{
     text-align: center;
@@ -66,12 +66,12 @@
     padding-left: 400px;
 }
 .refresh{
+    outline: none;
     font-family: Andale Mono, monospace;
     color: white;
     font-size: 20px;
     background-color: orange;
     padding: 10px 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px 0 black;
 
 }
