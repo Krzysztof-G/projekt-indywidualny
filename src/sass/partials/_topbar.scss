@@ -1,4 +1,6 @@
 .topbar{
+    color: grey;
+    font-weight: 900;
     text-align: right;
     align-items: right;
     background-color: white;
@@ -7,8 +9,10 @@
     width: 100%;
     height: 62px;
     border-bottom: grey solid 1px;
+    box-shadow: black 0 -1px 7px 0;
 }
 select{
+    font-family: Andale Mono, monospace;
     border: 0;
     font-size: 15px;
     background-color: white;
@@ -18,15 +22,15 @@ select{
 }
 table{
     height: 100%;
-    padding: 0;
+    padding: 5px 20px 5px 10px;
     float: right;  
 }
 table td{
+    border-radius: 5px;
+    box-shadow: black 0 0 5px 0;
     text-align: center;
     width: 200px;
     margin: 0;
-    border-right: grey solid 1px;
-    border-left: grey solid 1px;
 }
 .coast i{
     padding-left: 5px;
@@ -50,11 +54,12 @@ table td{
     position: relative;
 }
 .user p{
-    font-size: 15px;
+    font-family: Andale Mono, monospace;
+    font-size: 14px;
     position: absolute;
     bottom: 0;
     padding-left: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 .user i{
     padding-left: 5px;

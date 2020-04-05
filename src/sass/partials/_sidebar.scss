@@ -1,4 +1,5 @@
 .sidebar {
+    box-shadow: black 2px 0 7px 0;
     background-color: black;
     position: fixed;
     left: 0;
@@ -9,18 +10,20 @@
 }
 ul {
     text-align: left;
-    color: white;
+    color: lightgrey;
     text-decoration: none;
     list-style-type:none;
     padding-left: 0;
     margin: 0;
     a {
-        padding-left: 30px;
         text-align: center;;
-        color: white;
+        color: lightgrey;
         text-decoration: none;
     }
     li {
+        font-family: Andale Mono, monospace;
+        font-size: 15px;
+        font-weight: 700;
         padding: 20px 0;
     }
 }
@@ -31,7 +34,7 @@ ul :nth-child(1){
     margin-top: 5px;
     font-size: 30px;
     i{
-        padding-left: 10px;
+        padding-left: 35px;
     }
 }
 .side-item i{
@@ -40,3 +43,17 @@ ul :nth-child(1){
     width: 20px;
     padding-right: 10px;
 }
+.side-item p{
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 900;
+}
+li a {
+    margin-left: 30px;
+    padding:15px 10px 15px 10px;
+    transform: translateX(-150px);
+  }
+  
+  li a:hover {
+    background-color:red;
+  }

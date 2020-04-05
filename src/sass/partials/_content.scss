@@ -3,31 +3,75 @@
     padding-left: 188px;
 }
 .top-chart{
-    padding-top: 12px;
-    border-bottom: grey solid 1px;
+    border-bottom: lightgrey solid 1px;
     height: 47px;
     text-align: left;
+    p{
+        padding-top: 14px;
+        padding-left: 30px;
+        padding-bottom: 14px;
+        margin: 0;
+    }
 }
 .center-chart{
-    border-bottom: grey solid 1px;
+    border-bottom: lightgrey solid 1px;
     height: 111px;
+}
+.date-picker input{
+    padding: 10px 20px;
 }
 .bottom-chart{
     height: 742px;
 }
+.chart-photo{
+    text-align: center;
+    padding: 75px 0;
+}
 .top-links{
-    border-bottom: grey solid 1px;
+    border-bottom: lightgrey solid 1px;
     height: 47px;
+    p{
+        padding-top: 14px;
+        padding-left: 30px;
+        padding-bottom: 14px;
+        margin: 0;
+    }
 }
 .add-links {
     height: 105px;
 }
 .center-links{
-    border-top: grey solid 1px;
-    border-bottom: grey solid 1px;
+    padding: 15px 0;
+    text-align: center;
     height: 640px;
 }
 .calender{
     text-align: center;
-    padding: 43px 0;
+    padding: 37px 0;
+}
+.new-links{
+    font-family: Andale Mono, monospace;
+    color: white;
+    font-size: 25px;
+    background-color: orange;
+    margin: 15px 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 0 black;
+}
+.button-links{
+    text-align: center;
+}
+.button-refresh{
+    padding-left: 400px;
+}
+.refresh{
+    font-family: Andale Mono, monospace;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 0 black;
+
 }
