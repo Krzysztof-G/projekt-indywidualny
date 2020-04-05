@@ -1,4 +1,4 @@
-.topbar{
+.topbar {
     color: grey;
     font-weight: 900;
     text-align: right;
@@ -9,66 +9,65 @@
     width: 100%;
     height: 62px;
     border-bottom: lightgrey solid 1px;
-    i{
-        color: black;
+
+    select {
+        color: grey;
+        font-family: Andale Mono, monospace;
+        border: lightgrey solid 1px;
+        font-size: 15px;
+        background-color: white;
+        width: 130px;
+        outline: none;
+        margin-left: 20px;
     }
-}
-select{
-    color: grey;
-    font-family: Andale Mono, monospace;
-    border: 0;
-    font-size: 15px;
-    background-color: white;
-    border: none;
-    margin-top: 5px;
-    width: 130px;
-    outline: none;
-}
-table{
-    height: 100%;
-    padding: 5px 20px 5px 10px;
-    float: right;  
-}
-table td{
-    border-radius: 5px;
-    text-align: center;
-    width: 200px;
-    margin: 0;
-}
-.coast i{
-    color: black;
-    padding-left: 5px;
-    float: left;
-    font-size: 30px;
-    padding-right: 10px;
-}
-.bell{
-    padding-top: 4px;
-    width: 50px;
-    font-size: 30px;
-    border: none;
-}
-.logout{
-    padding-top: 4px;
-    width: 50px;
-    font-size: 30px;
-    border: none;
-}
-.user{
-    position: relative;
-}
-.user p{
-    font-family: Andale Mono, monospace;
-    font-size: 14px;
-    position: absolute;
-    bottom: 0;
-    padding-left: 50px;
-    padding-bottom: 1px;
-}
-.user i{
-    color: black;
-    padding-left: 5px;
-    float: left;
-    font-size: 30px;
-    padding-right: 10px;
+
+    table {
+        height: 100%;
+        padding: 5px 20px 5px 10px;
+        float: right;
+
+        td {
+            text-align: center;
+            width: 200px;
+            margin: 0;
+        }
+
+        .bell {
+            width: 50px;
+            border: none;
+        }
+
+        .user {
+            p {
+                top: 7px;
+                right: 90px;
+                font-family: Andale Mono, monospace;
+                font-size: 14px;
+                position: absolute;
+                bottom: 0;
+            }
+
+            i {
+                float: left;
+                color: black;
+                font-size: 25px;
+            }
+        }
+
+        .logout {
+            width: 50px;
+            border: none;
+
+            i {
+                color: black;
+                font-size: 25px;
+            }
+        }
+
+        i {
+            line-height: 20px;
+            color: orange;
+            font-size: 20px;
+        }
+    }
 }

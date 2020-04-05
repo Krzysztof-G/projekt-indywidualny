@@ -1,15 +1,19 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }  
-body{
+}
+
+body {
     background-color: rgb(245, 247, 237);
 }
-.container{
+
+.container {
     font-family: Andale Mono, monospace;
     font-size: 15px;
     padding: 0;
     background-color: white;
     width: 100%;
     margin: 0 0 10px 10px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
