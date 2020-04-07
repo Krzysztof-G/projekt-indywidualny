@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projekt indywidualny</title>
+</head>
+
+<body>
+    <header class="topbar">
+        <table>
+            <tr>
+                <td class="coast"><i class="fas fa-wallet"></i>
+                    <select>
+                        <option>Opcja 1</option>
+                        <option>Opcja 2</option>
+                        <option>Opcja 3</option>
+                    </select>
+                </td>
+                <td class="bell"><i class="far fa-bell"></i></<i>
+                </td>
+                <td class="user"><i class="far fa-user-circle"></i>
+                    <p>Leonardo Dicaprio</p>
+                </td>
+                <td class="logout"><i class="fas fa-sign-out-alt"></i></td>
+            </tr>
+        </table>
+    </header>
+    <header class="sidebar">
+        <div class="sidebar-title">
+            <p>Just do it<i class="fas fa-bars"></i></p>
+        </div>
+        <ul class="side-nav">
+            <li class="side-item">
+                <a class="side-link" href="general.html"><i class="far fa-star"></i>General</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="details.html"><i class="fab fa-buromobelexperte"></i>Details</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="links.html"><i class="fas fa-link"></i>Links</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="banners.html"><i class="fas fa-grip-vertical"></i>Banners</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="personal-data.html"><i class="far fa-user"></i>Personal data</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="payout.html"><i class="fas fa-dollar-sign"></i>Payout</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="postback.html"><i class="fas fa-retweet"></i>Postback</a>
+            </li>
+        </ul>
+    </header>
+    <section class="content">
+        <div class="container">
+                    <div class="personal">
+                        <div class="personal-data">
+                            <p>PERSONAL DATA</p>
+                        </div>
+                        <div class="name">
+                            <div class="name-data">
+                                <form>
+                                    <label for="fname">Name</label>
+                                    <input type="text" id="fname" name="fname" required><br><br>
+                                    <label for="lname">Surname</label>
+                                    <input type="text" id="lname" name="lname" required><br><br>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required /><br><br>
+                                    <label for="phone">Phone number</label>
+                                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                                </form>
+                            </div>
+                        <div class="contact">
+                            <div class="contact-data">
+                                <form>
+                                    <label for="skype">Skype</label>
+                                    <input type="text" id="skype" name="skype" ><br><br>
+                                    <label for="icq">ICQ</label>
+                                    <input type="text" id="icq" name="icq"><br><br>
+                                    <label for="msn">Msn</label>
+                                    <input type="text" id="msn" name="msn"><br><br>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="wallet">
+                            <div class="wallet-data">
+                                <form>
+                                    <label for="wallet">Wallet</label>
+                                    <input type="number" name="wallet"  required>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="password">
+                            <div class="password-data">
+                                <form>
+                                    <label for="password">Password</label>
+                                    <input type="password" id="pass" name="password" minlength="8" required><br><br>
+                                    <label for="repeat">Repeat</label>
+                                    <input type="password" id="pass" name="repeat" minlength="8" required><br><br>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="add-links">
+                            <div class="button-links">
+                                <button class="new-links">save</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>        
+    </section>
+
+
+</body>
+
+</html>

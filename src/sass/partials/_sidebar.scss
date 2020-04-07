@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: black;
+    background-color: #333333;
     position: fixed;
     left: 0;
     height: 100%;
@@ -31,11 +31,11 @@
             transition: 0.5s;
 
             &:hover {
-                border-left: solid 3px orange;
-
+                border-left: solid 3px #F58220;
+                background-color: white;
                 a {
                     i {
-                        color: orange;
+                        color: #F58220;
                         opacity: 1;
                     }
                 }
