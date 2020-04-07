@@ -43,7 +43,7 @@
                     padding: 1px 10px;
                     border: 0;
 
-                    &:hover{
+                    &:hover {
                         background-color: #FFA200;
                         opacity: 1;
                     }
@@ -91,8 +91,8 @@
             padding: 20px 30px;
             border-radius: 5px;
             border: 0;
-            
-            &:hover{
+
+            &:hover {
                 background-color: #FFA200;
                 opacity: 1;
             }
@@ -121,38 +121,178 @@
         }
     }
 
-    .name{
-    
-        .name-data{
+    .name {
+
+        .name-data {
             padding: 30px 0 30px 30%;
             border-bottom: solid 1px lightgrey;
         }
-    
-        .contact-data{
-            padding: 30px 0 30px 30%;
-            border-bottom: solid 1px lightgrey;
-        } 
-    
-        .wallet-data{
+
+        .contact-data {
             padding: 30px 0 30px 30%;
             border-bottom: solid 1px lightgrey;
         }
-        .password-data{
+
+        .wallet-data {
             padding: 30px 0 30px 30%;
             border-bottom: solid 1px lightgrey;
         }
-        label{
+
+        .password-data {
+            padding: 30px 0 30px 30%;
+            border-bottom: solid 1px lightgrey;
+        }
+
+        label {
             min-width: 220px;
             text-align: left;
             line-height: 35px;
             font-size: 15px;
             float: left;
         }
-        input{
+
+        input {
             width: 200px;
             outline: none;
             font-size: 15px;
         }
     }
-}
 
+    .table-links {
+        display: inline-table;
+
+        table {
+            td {
+                border-bottom: 1px solid lightgrey;
+                min-width: 200px;
+                max-width: 100%;
+
+                :nth-child(2) {
+                    padding: 0 200px 0 220px;
+                }
+
+                :nth-child(3) {
+                    padding-right: 10px;
+                    padding-left: 0;
+                }
+            }
+
+            p {
+                padding-left: 10px;
+                display: inline-flex;
+            }
+        }
+    }
+
+    .table-payout {
+        display: inline-table;
+        padding: 30px 0;
+
+        table {
+            td {
+                border-bottom: 1px solid lightgrey;
+                min-width: 200px;
+                max-width: 100%;
+
+                :nth-child(2) {
+                    padding: 0 200px 0 220px;
+                }
+
+                :nth-child(3) {
+                    padding-right: 200px;
+                }
+
+                :nth-child(4) {
+                    padding-right: 10px;
+                    padding-left: 0;
+
+                }
+            }
+
+            p {
+                padding-left: 10px;
+                display: inline-flex;
+            }
+        }
+    }
+
+    .table-details {
+        display: inline-table;
+        padding: 30px 0;
+
+        table {
+            td {
+                border-bottom: 1px solid lightgrey;
+                min-width: 200px;
+                max-width: 100%;
+
+                :nth-child(2) {
+                    padding: 0 20px 0 20px;
+                }
+
+                :nth-child(3) {
+                    padding-right: 20px;
+                }
+
+                :nth-child(4) {
+                    padding-right: 10px;
+                    padding-left: 0;
+
+                }
+            }
+
+            p {
+                padding-left: 10px;
+                display: inline-flex;
+            }
+        }
+    }
+
+    .add-postback {
+        height: 105px;
+        padding-right: 30px;
+
+        .new-postback {
+            outline: none;
+            font-family: Andale Mono, monospace;
+            color: white;
+            font-size: 15px;
+            background-color: #F58220;
+            margin: 15px 0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 0;
+
+            &:hover {
+                background-color: #FFA200;
+                opacity: 1;
+            }
+        }
+
+        .button-postback {
+            text-align: right;
+        }
+    }
+
+    .postback-table {
+        display: inline-flex;
+
+        p {
+            top: 300px;
+        }
+
+        .signup-table {
+            margin-right: 5px;
+            border: 1px solid lightgrey;
+        }
+
+        .deposit-table {
+            margin-left: 5px;
+            border: 1px solid lightgrey;
+        }
+    }
+
+    .postback-sends {
+        display: inline-flex;
+    }
+}
