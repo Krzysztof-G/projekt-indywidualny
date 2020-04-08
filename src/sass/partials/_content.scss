@@ -67,6 +67,7 @@
             .chart-table {
                 min-width: 200px;
                 padding-left: 30%;
+
                 td {
                     padding: 10px 0 5px 0;
                     text-align: left;
@@ -83,6 +84,7 @@
     .top-links {
         border-bottom: lightgrey solid 1px;
         height: 47px;
+
 
         p {
             padding-top: 14px;
@@ -176,6 +178,8 @@
         display: inline-table;
 
         table {
+            border-spacing: 0;
+
             td {
                 padding: 0;
                 border-bottom: 1px solid lightgrey;
