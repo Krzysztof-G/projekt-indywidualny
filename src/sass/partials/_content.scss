@@ -68,6 +68,7 @@
                 min-width: 200px;
                 padding-left: 28%;
                 border-spacing: 30px 10px;
+
                 td {
                     padding: 10px 0 5px 0;
                     text-align: left;
@@ -180,6 +181,7 @@
         table {
             border-spacing: 0;
             padding-top: 30px;
+
             td {
                 padding: 0;
                 border-bottom: 1px solid lightgrey;
@@ -200,15 +202,11 @@
                 }
 
                 &:hover {
-                    background-color: lightgrey;
+                    background-color: rgba(211, 211, 211, 0.151);
 
-                    a {
-                        color: white;
-                    }
+                    a {}
 
-                    p {
-                        color: white;
-                    }
+                    p {}
 
                     .fa-link {
                         color: #F58220;
