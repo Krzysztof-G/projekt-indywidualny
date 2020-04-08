@@ -63,6 +63,20 @@
         .chart-photo {
             text-align: center;
             padding: 75px 0;
+
+            .chart-table {
+                min-width: 200px;
+                padding-left: 30%;
+                td {
+                    padding: 10px 0 5px 0;
+                    text-align: left;
+                    font-size: 15px;
+                    font-weight: 700;
+                    width: 300px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+
         }
     }
 
@@ -163,6 +177,7 @@
 
         table {
             td {
+                padding: 0;
                 border-bottom: 1px solid lightgrey;
                 min-width: 200px;
                 max-width: 100%;
@@ -175,11 +190,37 @@
                     padding-right: 10px;
                     padding-left: 0;
                 }
+
+                :last-child {
+                    padding: 0 10px 0 10px;
+                }
+
+                &:hover {
+                    background-color: lightgrey;
+
+                    a {
+                        color: white;
+                    }
+
+                    p {
+                        color: white;
+                    }
+
+                    .fa-link {
+                        color: #F58220;
+                        opacity: 1;
+                    }
+                }
             }
 
             p {
                 padding-left: 10px;
                 display: inline-flex;
+            }
+
+            a {
+                text-decoration: none;
+                color: grey;
             }
         }
     }
@@ -189,6 +230,28 @@
         padding: 30px 0;
 
         table {
+            thead {
+                :nth-child(2) {
+                    padding-left: 280px;
+                }
+
+                :nth-child(3) {
+                    padding-left: 275px;
+                }
+
+                :nth-child(4) {
+                    padding-left: 210px;
+                }
+
+                th {
+                    padding-left: 10px;
+                    float: left;
+                    font-weight: 900;
+                    color: black;
+                    padding-bottom: 20px;
+                }
+            }
+
             td {
                 border-bottom: 1px solid lightgrey;
                 min-width: 200px;
@@ -221,24 +284,18 @@
         padding: 30px 0;
 
         table {
+            th {
+                float: left;
+                padding-left: 19px;
+                font-weight: 900;
+                color: black;
+                padding-bottom: 20px;
+            }
+
             td {
                 border-bottom: 1px solid lightgrey;
                 min-width: 200px;
                 max-width: 100%;
-
-                :nth-child(2) {
-                    padding: 0 20px 0 20px;
-                }
-
-                :nth-child(3) {
-                    padding-right: 20px;
-                }
-
-                :nth-child(4) {
-                    padding-right: 10px;
-                    padding-left: 0;
-
-                }
             }
 
             p {
