@@ -309,7 +309,8 @@
 
     .add-postback {
         height: 105px;
-        padding-right: 30px;
+        padding-right: 50px;
+        padding-top: 37px;
 
         .new-postback {
             outline: none;
@@ -333,6 +334,10 @@
         }
     }
 
+    .postback {
+        padding-top: 30px;
+    }
+
     .postback-table {
         display: inline-flex;
 
@@ -340,18 +345,52 @@
             top: 300px;
         }
 
-        .signup-table {
+        .signups-table {
+            text-align: left;
+            width: 770px;
+            height: 250px;
             margin-right: 5px;
             border: 1px solid lightgrey;
+            border-radius: 3px;
         }
 
         .deposit-table {
+            text-align: left;
+            width: 770px;
             margin-left: 5px;
             border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+    }
+
+    .postback-type {
+        padding: 30px;
+
+        select {
+            width: 300px;
+            margin: 0 50px;
+            text-decoration: none;
+            outline: none;
+            color: grey;
+            font-family: Andale Mono, monospace;
+            border: lightgrey solid 1px;
+            font-size: 15px;
+            background-color: white;
+            outline: none;
         }
     }
 
     .postback-sends {
         display: inline-flex;
+
+        div {
+            border: 1px solid lightgrey;
+            width: 794px;
+            height: 300px;
+        }
+
+        .inputs {
+            display: block;
+        }
     }
 }
