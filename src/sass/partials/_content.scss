@@ -38,13 +38,13 @@
                     font-family: Andale Mono, monospace;
                     color: white;
                     font-size: 20px;
-                    background-color: #F58220;
+                    background-color: #f58220;
                     border-radius: 5px;
                     padding: 1px 10px;
                     border: 0;
 
                     &:hover {
-                        background-color: #FFA200;
+                        background-color: #ffa200;
                         opacity: 1;
                     }
 
@@ -78,14 +78,12 @@
                     border-bottom: 1px solid lightgrey;
                 }
             }
-
         }
     }
 
     .top-links {
         border-bottom: lightgrey solid 1px;
         height: 47px;
-
 
         p {
             padding-top: 14px;
@@ -103,14 +101,14 @@
             font-family: Andale Mono, monospace;
             color: white;
             font-size: 25px;
-            background-color: #F58220;
+            background-color: #f58220;
             margin: 15px 0;
             padding: 20px 30px;
             border-radius: 5px;
             border: 0;
 
             &:hover {
-                background-color: #FFA200;
+                background-color: #ffa200;
                 opacity: 1;
             }
         }
@@ -139,7 +137,6 @@
     }
 
     .name {
-
         .name-data {
             padding: 30px 0 30px 30%;
             border-bottom: solid 1px lightgrey;
@@ -204,12 +201,8 @@
                 &:hover {
                     background-color: rgba(211, 211, 211, 0.151);
 
-                    a {}
-
-                    p {}
-
                     .fa-link {
-                        color: #F58220;
+                        color: #f58220;
                         opacity: 1;
                     }
                 }
@@ -270,7 +263,6 @@
                 :nth-child(4) {
                     padding-right: 10px;
                     padding-left: 0;
-
                 }
             }
 
@@ -317,14 +309,14 @@
             font-family: Andale Mono, monospace;
             color: white;
             font-size: 15px;
-            background-color: #F58220;
+            background-color: #f58220;
             margin: 15px 0;
             padding: 10px 20px;
             border-radius: 5px;
             border: 0;
 
             &:hover {
-                background-color: #FFA200;
+                background-color: #ffa200;
                 opacity: 1;
             }
         }
