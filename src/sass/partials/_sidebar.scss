@@ -7,6 +7,19 @@
     z-index: auto;
     width: 188px;
 
+    .sidebar-title {
+        i {
+            font-size: 30px;
+            opacity: 1;
+            padding-left: 30px;
+
+            &:hover {
+                color: #f58220;
+                opacity: 1;
+            }
+        }
+    }
+
     ul {
         text-align: left;
         color: lightgrey;
@@ -31,12 +44,12 @@
             transition: 0.5s;
 
             &:hover {
-                border-left: solid 3px #F58220;
+                border-left: solid 3px #f58220;
                 background-color: rgba(211, 211, 211, 0.151);
 
                 a {
                     i {
-                        color: #F58220;
+                        color: #f58220;
                         opacity: 1;
                     }
                 }
@@ -45,7 +58,6 @@
     }
 
     i {
-        font-size: 15px;
         height: 20px;
         width: 20px;
         text-align: center;
@@ -61,11 +73,5 @@
         color: white;
         font-family: Brush Script MT, Brush Script Std, cursive;
         font-weight: 900;
-    }
-
-    .sidebar-title {
-        i {
-            padding-left: 30px;
-        }
     }
 }
