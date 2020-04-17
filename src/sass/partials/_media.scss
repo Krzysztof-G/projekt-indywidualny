@@ -42,11 +42,10 @@
         .links {
             .center-links {
                 padding: 0;
-                height: 550px;
 
                 table {
                     font-size: 14px;
-                    width: 500px;
+                    width: 100%;
                     padding: 0;
 
                     p {
@@ -64,57 +63,9 @@
     .content {
         padding: 70px 0 0 185px;
 
-        .table-payout {
-            table {
-                width: 500px;
-
-                thead {
-                    :nth-child(2) {
-                        padding: 0 30px 0 120px;
-                    }
-
-                    :nth-child(3) {
-                        padding: 0 30px 0 75px;
-                    }
-
-                    :nth-child(4) {
-                        padding: 0 10px 0 58px;
-                    }
-
-                    th {
-                        font-size: 10px;
-                        padding-left: 20px;
-                    }
-                }
-
-                td {
-                    width: 100px;
-                    font-size: 10px;
-
-                    p {
-                        padding: 0 50px 0 0;
-                    }
-
-                    :nth-child(2) {
-                        padding: 0 30px 0 30px;
-                    }
-
-                    :nth-child(3) {
-                        padding: 0 30px 0 30px;
-                    }
-
-                    :nth-child(4) {
-                        padding: 0 0 0 50px;
-                    }
-                }
-            }
-        }
-
         .bottom-chart {
-            height: 500px;
-
             .chart-photo {
-                padding: 0;
+                padding: 0 0 30px 0;
 
                 .chart-table {
                     padding-left: 10%;
@@ -125,8 +76,7 @@
                 }
 
                 img {
-                    width: 390px;
-                    height: 350px;
+                    width: 100%;
                 }
             }
         }
@@ -148,28 +98,116 @@
                 }
             }
         }
+
+        .table-details {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                width: 100%;
+                margin: 0 10px;
+
+                th {
+                    font-weight: 900;
+                    color: black;
+                    padding-bottom: 20px;
+                }
+
+                td {
+                    padding: 30px 5px 30px 5px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .table-payout {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                margin: 0 10px;
+
+                thead {
+                    th {
+                        padding: 0;
+                    }
+                }
+
+                td {
+                    padding: 30px 15px 30px 15px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .name {
+            text-align: center;
+
+            .name-data {
+                padding: 10px 0 10px 130px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .contact-data {
+                padding: 10px 0 10px 130px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .wallet-data {
+                padding: 10px 0 10px 130px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .password-data {
+                padding: 10px 0 10px 130px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            label {
+                line-height: 35px;
+                font-size: 15px;
+            }
+
+            input {
+                outline: none;
+                font-size: 15px;
+                border: 1px solid lightgrey;
+            }
+        }
     }
 }
 
 @media (min-width: 376px) and (max-width: 610px) {
     .top-bar {
+        top: 62px;
+        right: 0;
+
         table {
             font-size: 10px;
+            padding: 0;
 
             .user {
                 p {
                     top: 13px;
                     font-size: 10px;
-                    right: 80px;
+                    right: 60px;
                 }
 
                 i {
-                    font-size: 15px;
+                    font-size: 25px;
                 }
             }
 
             i {
-                font-size: 15px;
+                font-size: 25px;
             }
 
             td {
@@ -178,26 +216,71 @@
         }
 
         select {
-            font-size: 10px;
-            width: 70px;
+            font-size: 15px;
+            width: 90px;
         }
     }
 
     .sidebar {
-        display: none;
+        height: 62px;
+        width: 100%;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        ul {
+            display: none;
+            background-color: #333333;
+
+            li {
+                font-family: Andale Mono, monospace;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 12px 0;
+                border-left: 3px solid transparent;
+                transition: 0.5s;
+
+                &:hover {
+                    border-left: solid 3px #f58220;
+                    background-color: rgba(211, 211, 211, 0.151);
+
+                    a {
+                        text-decoration: none;
+
+                        i {
+                            color: #f58220;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .side-nav.show {
+            display: block;
+        }
+
+        .sidebar-title {
+            a {
+                color: white;
+                text-decoration: none;
+                margin-left: 83%;
+                left: 0;
+            }
+        }
     }
 
     .container {
-        width: 390px;
+        width: 100%;
 
         .links {
             .center-links {
                 padding: 0;
-                height: 550px;
 
                 table {
                     font-size: 14px;
-                    width: 350px;
+                    width: 100%;
                     padding: 0;
 
                     p {
@@ -213,13 +296,11 @@
     }
 
     .content {
-        padding: 70px 0 0 0;
+        padding: 130px 0 0 0;
 
         .bottom-chart {
-            height: 500px;
-
             .chart-photo {
-                padding: 0;
+                padding: 0 0 30px 0;
 
                 .chart-table {
                     padding-left: 0;
@@ -230,8 +311,7 @@
                 }
 
                 img {
-                    width: 390px;
-                    height: 350px;
+                    width: 100%;
                 }
             }
         }
@@ -253,23 +333,108 @@
                 }
             }
         }
+
+        .table-details {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                width: 100%;
+                margin: 0 10px;
+
+                th {
+                    font-weight: 900;
+                    color: black;
+                    padding-bottom: 20px;
+                }
+
+                td {
+                    padding: 30px 5px 30px 5px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .table-payout {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                margin: 0 10px;
+
+                td {
+                    padding: 30px 15px 30px 15px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .name {
+            text-align: center;
+
+            .name-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .contact-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .wallet-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .password-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            label {
+                width: 100%;
+                text-align: center;
+                line-height: 35px;
+                font-size: 15px;
+            }
+
+            input {
+                outline: none;
+                font-size: 15px;
+                border: 1px solid lightgrey;
+            }
+        }
     }
 }
 
 @media (min-width: 1px) and (max-width: 375px) {
     .top-bar {
+        top: 62px;
+        right: 0;
+
         table {
             font-size: 10px;
+            padding: 0;
 
             .user {
+                width: 100px;
+
                 p {
-                    top: 13px;
-                    font-size: 10px;
-                    right: 60px;
+                    display: none;
                 }
 
                 i {
-                    font-size: 15px;
+                    margin-left: 40px;
+                    font-size: 20px;
                 }
             }
 
@@ -280,7 +445,7 @@
             }
 
             i {
-                font-size: 15px;
+                font-size: 20px;
             }
 
             td {
@@ -289,26 +454,72 @@
         }
 
         select {
-            font-size: 10px;
-            width: 70px;
+            font-size: 12px;
+            width: 80px;
+            margin-left: 10px;
         }
     }
 
     .sidebar {
-        display: none;
+        height: 62px;
+        width: 100%;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        ul {
+            display: none;
+            background-color: #333333;
+
+            li {
+                font-family: Andale Mono, monospace;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 12px 0;
+                border-left: 3px solid transparent;
+                transition: 0.5s;
+
+                &:hover {
+                    border-left: solid 3px #f58220;
+                    background-color: rgba(211, 211, 211, 0.151);
+
+                    a {
+                        text-decoration: none;
+
+                        i {
+                            color: #f58220;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .side-nav.show {
+            display: block;
+        }
+
+        .sidebar-title {
+            a {
+                text-decoration: none;
+                color: white;
+                margin-left: 80%;
+                left: 0;
+            }
+        }
     }
 
     .container {
-        width: 345px;
+        width: 100%;
 
         .links {
             .center-links {
-                height: 450px;
                 padding: 0;
 
                 table {
-                    font-size: 12px;
-                    width: 330px;
+                    font-size: 10px;
+                    width: 100%;
                     padding: 0;
 
                     p {
@@ -324,13 +535,11 @@
     }
 
     .content {
-        padding: 70px 0 0 0;
+        padding: 130px 0 0 0;
 
         .bottom-chart {
-            height: 550px;
-
             .chart-photo {
-                padding: 0;
+                padding: 0 0 30px 0;
 
                 .chart-table {
                     padding-left: 0;
@@ -341,8 +550,7 @@
                 }
 
                 img {
-                    width: 320px;
-                    height: 350px;
+                    width: 100%;
                 }
             }
         }
@@ -362,6 +570,98 @@
                         }
                     }
                 }
+            }
+        }
+
+        .table-details {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                width: 100%;
+                margin: 0 10px;
+
+                th {
+                    font-weight: 900;
+                    color: black;
+                    padding-bottom: 20px;
+                }
+
+                td {
+                    padding: 30px 5px 30px 5px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .table-payout {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+
+            table {
+                width: 100%;
+                max-width: 100%;
+                border-spacing: 0;
+                margin: 0 10px;
+
+                td {
+                    padding: 30px 15px 30px 15px;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+
+        .personal-data {
+            border-bottom: lightgrey solid 1px;
+            height: 47px;
+
+            p {
+                padding-top: 14px;
+                padding-left: 30px;
+                padding-bottom: 14px;
+                margin: 0;
+            }
+        }
+
+        .name {
+            text-align: center;
+
+            .name-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .contact-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .wallet-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            .password-data {
+                padding: 10px 10px 10px 10px;
+                border-bottom: solid 1px lightgrey;
+            }
+
+            label {
+                width: 100%;
+                text-align: center;
+                line-height: 35px;
+                font-size: 15px;
+            }
+
+            input {
+                outline: none;
+                font-size: 15px;
+                border: 1px solid lightgrey;
             }
         }
     }

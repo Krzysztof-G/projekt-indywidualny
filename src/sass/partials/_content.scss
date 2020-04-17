@@ -58,8 +58,6 @@
     }
 
     .bottom-chart {
-        height: 742px;
-
         .chart-photo {
             text-align: center;
             padding: 75px 0;
@@ -102,7 +100,7 @@
             color: white;
             font-size: 25px;
             background-color: #f58220;
-            margin: 15px 0;
+            margin: 25px 0;
             padding: 20px 30px;
             border-radius: 5px;
             border: 0;
@@ -121,7 +119,6 @@
     .center-links {
         padding: 15px 0;
         text-align: center;
-        height: 640px;
     }
 
     .personal-data {
@@ -166,6 +163,7 @@
         }
 
         input {
+            border: 1px solid lightgrey;
             width: 200px;
             outline: none;
             font-size: 15px;
@@ -173,31 +171,27 @@
     }
 
     .table-links {
-        display: inline-table;
 
         table {
             border-spacing: 0;
-            padding-top: 30px;
+            width: 100%;
+            margin: 0 10px;
 
             td {
-                padding: 0;
+                padding: 20px 5px 20px 5px;
                 border-bottom: 1px solid lightgrey;
-                min-width: 200px;
-                max-width: 100%;
 
-                :nth-child(2) {
-                    padding: 0 200px 0 220px;
+                a {
+                    text-decoration: none;
+                    color: grey;
                 }
 
-                :nth-child(3) {
-                    padding-right: 10px;
-                    padding-left: 0;
+                i:nth-child(2) {
+                    margin-left: 10px;
                 }
+            }
 
-                :last-child {
-                    padding: 0 10px 0 10px;
-                }
-
+            tr {
                 &:hover {
                     background-color: rgba(211, 211, 211, 0.151);
 
@@ -207,40 +201,19 @@
                     }
                 }
             }
-
-            p {
-                padding-left: 10px;
-                display: inline-flex;
-            }
-
-            a {
-                text-decoration: none;
-                color: grey;
-            }
         }
     }
 
     .table-payout {
-        display: inline-table;
         padding: 30px 0;
 
         table {
+            border-spacing: 0;
+            width: 100%;
+            margin: 0 10px;
+
             thead {
-                :nth-child(2) {
-                    padding-left: 280px;
-                }
-
-                :nth-child(3) {
-                    padding-left: 275px;
-                }
-
-                :nth-child(4) {
-                    padding-left: 210px;
-                }
-
                 th {
-                    padding-left: 10px;
-                    float: left;
                     font-weight: 900;
                     color: black;
                     padding-bottom: 20px;
@@ -248,53 +221,29 @@
             }
 
             td {
+                padding: 30px 5px 30px 5px;
                 border-bottom: 1px solid lightgrey;
-                min-width: 200px;
-                max-width: 100%;
-
-                :nth-child(2) {
-                    padding: 0 200px 0 220px;
-                }
-
-                :nth-child(3) {
-                    padding-right: 200px;
-                }
-
-                :nth-child(4) {
-                    padding-right: 10px;
-                    padding-left: 0;
-                }
-            }
-
-            p {
-                padding-left: 10px;
-                display: inline-flex;
             }
         }
     }
 
     .table-details {
-        display: inline-table;
         padding: 30px 0;
 
         table {
+            border-spacing: 0;
+            width: 100%;
+            margin: 0 10px;
+
             th {
-                float: left;
-                padding-left: 19px;
                 font-weight: 900;
                 color: black;
                 padding-bottom: 20px;
             }
 
             td {
+                padding: 30px 5px 30px 5px;
                 border-bottom: 1px solid lightgrey;
-                min-width: 200px;
-                max-width: 100%;
-            }
-
-            p {
-                padding-left: 10px;
-                display: inline-flex;
             }
         }
     }

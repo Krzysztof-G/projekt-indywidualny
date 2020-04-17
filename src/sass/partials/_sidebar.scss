@@ -8,11 +8,17 @@
     width: 188px;
 
     .sidebar-title {
+        a{
+            color: white;
+            position: absolute;
+            top: 15px;
+            left: 110px;
+        }
         i {
             font-size: 30px;
             opacity: 1;
             padding-left: 30px;
-
+            text-decoration: none;
             &:hover {
                 color: #f58220;
                 opacity: 1;
