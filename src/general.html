@@ -62,6 +62,16 @@
                 <a class="side-link" href="postback.html"><i class="fas fa-retweet"></i>Postback</a>
             </li>
         </ul>
+        <div class="overlay" id="overlay">
+            <div class="modal" id="myModal">
+              <div class="btn-close js--close-modal">x</div>
+          
+              <h4>Witaj w modalu!</h4>
+              <p>Lorem ipsum dolor sit amet...</p>
+          
+              <button class="js--close-modal">Okay</button>
+            </div>
+          </div>
     </header>
     <section class="content">
         <div class="container">
@@ -90,7 +100,7 @@
                                 <td>Turn over</td>
                             </tr>
                         </table>
-                        <img src="images/wykres.png" alt="">
+                        <canvas id="myChart"></canvas>
                     </div>
                 </div>
             </div>
@@ -180,7 +190,7 @@
         </div>
     </section>
     <script src="js/script.js" type="module"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </body>
 
 </html>
