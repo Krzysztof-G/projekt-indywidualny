@@ -27,7 +27,6 @@ const app = {
     document.querySelectorAll('#overlay .js--close-modal').forEach(function(btn) {
       btn.addEventListener('click', function(e) {
         e.preventDefault();
-        console.log(closeModal() - btn);
         closeModal();
       });
     });
@@ -35,7 +34,6 @@ const app = {
     /* remove class "show" after clicking at overlay  */
     document.querySelector('#overlay').addEventListener('click', function(e) {
       if(e.target === this) {
-        console.log(closeModal() - overlay);
         closeModal();
       }
     });
@@ -43,7 +41,6 @@ const app = {
     /* remove class "show" after clicking at escape  */
     document.addEventListener('keyup', function(e) {
       if(e.keyCode === 27) {
-        console.log(closeModal() - esc);
         closeModal();
       }
     });
@@ -54,9 +51,11 @@ const app = {
     document.querySelectorAll('#overlay > *').forEach(function(modal) {
       modal.classList.remove('show');
     });
+  
     document.querySelector('#overlay').classList.add('show');
     document.querySelector(modal).classList.add('show');
-    console.log(openModal());
+    
+    
   },
 
   createChart: function(){

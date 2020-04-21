@@ -20,15 +20,16 @@
 
     display: none;
 
-    .overlay.show {
-        display: flex;
-    }
+}
 
+.overlay.show {
+    display: block;
 }
 
 .modal {
-    max-width: 300px;
+    max-width: 600px;
     margin: auto;
+    margin-top: 20%;
     background-color: #ffffff;
     position: relative;
     padding: 30px;
