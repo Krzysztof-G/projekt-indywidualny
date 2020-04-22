@@ -51,12 +51,18 @@ const app = {
     document.querySelectorAll('#overlay > *').forEach(function(modal) {
       modal.classList.remove('show');
     });
-  
+
+    const user = document.getElementById('user');
+
+    user.addEventListener('click', function () {
+      openModal('#myModal');
+    });
+
     document.querySelector('#overlay').classList.add('show');
     document.querySelector(modal).classList.add('show');
     
-    
   },
+  
 
   createChart: function(){
     const ctx = document.getElementById('myChart').getContext('2d');
