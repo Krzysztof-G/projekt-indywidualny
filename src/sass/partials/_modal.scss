@@ -44,6 +44,25 @@
     display: block;
 }
 
+.userModal {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20%;
+    background-color: #ffffff;
+    position: relative;
+    padding: 30px;
+    display: none;
+    display: none;
+
+    p {
+        color: #ffa200;
+    }
+}
+
+.userModal.show {
+    display: block;
+}
+
 .modal .btn-close {
     position: absolute;
     top: 0;

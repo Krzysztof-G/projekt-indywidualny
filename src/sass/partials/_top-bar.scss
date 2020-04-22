@@ -51,6 +51,10 @@
                 float: left;
                 font-size: 25px;
             }
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         .logout {
