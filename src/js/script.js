@@ -104,6 +104,12 @@ const app = {
     user.addEventListener('click', function () {
       thisApp.openModal('#userModal');
     });
+
+    const logOut = document.getElementById('logout');
+ 
+    logOut.addEventListener('click', function () {
+      thisApp.openModal('#logModal');
+    });
   }
 };
 

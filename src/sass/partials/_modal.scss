@@ -63,6 +63,25 @@
     display: block;
 }
 
+.logModal {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20%;
+    background-color: #ffffff;
+    position: relative;
+    padding: 30px;
+    display: none;
+    display: none;
+
+    p {
+        color: green;
+    }
+}
+
+.logModal.show {
+    display: block;
+}
+
 .modal .btn-close {
     position: absolute;
     top: 0;
