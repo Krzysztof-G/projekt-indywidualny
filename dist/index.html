@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projekt indywidualny</title>
+</head>
+
+<body>
+    <header class="top-bar">
+        <table>
+            <tr>
+                <td class="coast"><i class="fas fa-wallet"></i>
+                    <select>
+                        <option>Opcja 1</option>
+                        <option>Opcja 2</option>
+                        <option>Opcja 3</option>
+                    </select>
+                </td>
+                <td class="bell">
+                    <i class="far fa-bell"></i>
+                </td>
+                <td class="user">
+                    <i class="far fa-user-circle" id="user"></i>
+                    <p>Leonardo Dicaprio</p>
+                </td>
+                <td class="logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <header class="sidebar">
+        <div class="sidebar-title">
+            <p>Just do it</p>
+            <a class="menu" href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <ul class="side-nav">
+            <li class="side-item">
+                <a class="side-link" href="general.html"><i class="far fa-star"></i>General</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="details.html"><i class="fab fa-buromobelexperte"></i>Details</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="links.html"><i class="fas fa-link"></i>Links</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="banners.html"><i class="fas fa-grip-vertical"></i>Banners</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="personal-data.html"><i class="far fa-user"></i>Personal data</a>
+            </li>
+            <li class="side-item">
+                <a class="side-link" href="payout.html"><i class="fas fa-dollar-sign"></i>Payout</a>
+            </li>
+            <!-- <li class="side-item">
+                <a class="side-link" href="postback.html"><i class="fas fa-retweet"></i>Postback</a>
+            </li> -->
+        </ul>
+        <div class="overlay" id="overlay">
+            <div class="modal" id="myModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>Witaj w modalu!</h4>
+                <p>Lorem ipsum dolor sit amet...</p>
+
+                <button class="js--close-modal">Okay</button>
+            </div>
+            <div class="userModal" id="userModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>LOGIN</h4>
+                <input type="text" id="password" name="login" minlength="8" required placeholder="login">
+                <input type="password" id="password" name="password" minlength="8" required placeholder="password">
+
+                <button>ENTER</button>
+            </div>
+            <div class="logModal" id="logModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>Do you really want to Quit?</h4>
+
+                <button class="cancel">CANCEL</button>
+                <button class="quite">QUITE</button>
+
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="chart">
+                <div class="top-chart">
+                    <p>GENERAL STATISTIC</p>
+                </div>
+                <div class="center-chart">
+                    <div class="calender">
+                        <div class="date-picker">
+                            <input type="date" name="date" id="start" value="2020-07-22" min="2020-01-01"
+                                max="2020-12-31">
+                            <button class="refresh"><i class="fas fa-redo-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-chart">
+                    <div class="chart-photo">
+                        <table class="chart-table">
+                            <tr>
+                                <td>Visit Signups</td>
+                                <td>Net deposit</td>
+                            </tr>
+                            <tr>
+                                <td>FTD</td>
+                                <td>Turn over</td>
+                            </tr>
+                        </table>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="links">
+                <div class="top-links">
+                    <p>LINKS</p>
+                </div>
+                <div class="add-links">
+                    <div class="button-links">
+                        <button class="new-links">+ add new</button>
+                    </div>
+                </div>
+                <div class="center-links">
+                    <div class="table-links">
+                        <table>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                            <tr>
+                                <td>home</td>
+                                <td><a href="#">http://www.google.pl</a></td>
+                                <td><i class="fas fa-link"></i><i class="far fa-trash-alt"></i></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="add-links">
+                    <div class="button-links">
+                        <button class="new-links">+ add new</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/chart.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</body>
+
+</html>
