@@ -25,11 +25,11 @@
                     <i class="far fa-bell"></i>
                 </td>
                 <td class="user">
-                    <i class="far fa-user-circle"></i>
+                    <i class="far fa-user-circle" id="user"></i>
                     <p>Leonardo Dicaprio</p>
                 </td>
                 <td class="logout">
-                    <i class="fas fa-sign-out-alt"></i>
+                    <i class="fas fa-sign-out-alt" id="logout"></i>
                 </td>
             </tr>
         </table>
@@ -58,10 +58,39 @@
             <li class="side-item">
                 <a class="side-link" href="payout.html"><i class="fas fa-dollar-sign"></i>Payout</a>
             </li>
-            <li class="side-item">
+            <!-- <li class="side-item">
                 <a class="side-link" href="postback.html"><i class="fas fa-retweet"></i>Postback</a>
-            </li>
+            </li> -->
         </ul>
+        <div class="overlay" id="overlay">
+            <div class="modal" id="myModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>Witaj w modalu!</h4>
+                <p>Lorem ipsum dolor sit amet...</p>
+
+                <button class="js--close-modal">Okay</button>
+            </div>
+            <div class="userModal" id="userModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>LOGIN</h4>
+                <input type="text" id="password" name="login" minlength="8" required placeholder="login">
+                <input type="password" id="password" name="password" minlength="8" required placeholder="password">
+
+                <button>ENTER</button>
+            </div>
+            <div class="logModal" id="logModal">
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>Do you really want to Quit?</h4>
+
+                <button class="cancel">CANCEL</button>
+                <button class="quite">QUITE</button>
+
+            </div>
+        </div>
+
     </header>
     <section class="content">
         <div class="container">
@@ -72,8 +101,8 @@
                 <div class="center-chart">
                     <div class="calender">
                         <div class="date-picker">
-                            <input type="date" name="date" id="start" value="2020-07-22"
-                                min="2020-01-01" max="2020-12-31">
+                            <input type="date" name="date" id="start" value="2020-07-22" min="2020-01-01"
+                                max="2020-12-31">
                             <button class="refresh"><i class="fas fa-redo-alt"></i></button>
                         </div>
                     </div>
@@ -83,20 +112,20 @@
                         <table>
                             <thead>
                                 <tr>
-                                  <th>Tracker name</th>
-                                  <th>Initiate</th>
-                                  <th>Date</th>
-                                  <th>Visits</th>
-                                  <th>Unique</th>
-                                  <th>Signups</th>
-                                  <th>FTD</th>
-                                  <th>Depositors</th>
-                                  <th>Deposits($)</th>
-                                  <th>Payout($)</th>
-                                  <th>Turnover</th>
-                                  <th>Deal</th>
+                                    <th>Tracker name</th>
+                                    <th>Initiate</th>
+                                    <th>Date</th>
+                                    <th>Visits</th>
+                                    <th>Unique</th>
+                                    <th>Signups</th>
+                                    <th>FTD</th>
+                                    <th>Depositors</th>
+                                    <th>Deposits($)</th>
+                                    <th>Payout($)</th>
+                                    <th>Turnover</th>
+                                    <th>Deal</th>
                                 </tr>
-                              </thead>
+                            </thead>
                             <tr>
                                 <td>Tracker name</td>
                                 <td>Initiate</td>
@@ -237,7 +266,7 @@
                                 <td>Turnover</td>
                                 <td>Deal</td>
                             </tr>
-                            
+
                         </table>
                     </div>
                 </div>
@@ -246,6 +275,7 @@
     </section>
 
     <script src="js/script.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
 </body>
 

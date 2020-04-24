@@ -58,36 +58,38 @@
             <li class="side-item">
                 <a class="side-link" href="payout.html"><i class="fas fa-dollar-sign"></i>Payout</a>
             </li>
-            <li class="side-item">
+            <!-- <li class="side-item">
                 <a class="side-link" href="postback.html"><i class="fas fa-retweet"></i>Postback</a>
-            </li>
+            </li> -->
         </ul>
         <div class="overlay" id="overlay">
             <div class="modal" id="myModal">
-              <div class="btn-close js--close-modal">x</div>
-          
-              <h4>Witaj w modalu!</h4>
-              <p>Lorem ipsum dolor sit amet...</p>
-          
-              <button class="js--close-modal">Okay</button>
+                <div class="btn-close js--close-modal">x</div>
+
+                <h4>Witaj w modalu!</h4>
+                <p>Lorem ipsum dolor sit amet...</p>
+
+                <button class="js--close-modal">Okay</button>
             </div>
             <div class="userModal" id="userModal">
                 <div class="btn-close js--close-modal">x</div>
-            
-                <h4>Witaj w modalu!</h4>
-                <p>Lorem ipsum dolor sit amet...</p>
-            
-                <button class="js--close-modal">Okay</button>
-              </div>
-              <div class="logModal" id="logModal">
+
+                <h4>LOGIN</h4>
+                <input type="text" id="password" name="login" minlength="8" required placeholder="login">
+                <input type="password" id="password" name="password" minlength="8" required placeholder="password">
+
+                <button>ENTER</button>
+            </div>
+            <div class="logModal" id="logModal">
                 <div class="btn-close js--close-modal">x</div>
-            
-                <h4>Witaj w modalu!</h4>
-                <p>Lorem ipsum dolor sit amet...</p>
-            
-                <button class="js--close-modal">Okay</button>
-              </div>
-          </div>
+
+                <h4>Do you really want to Quit?</h4>
+
+                <button class="cancel">CANCEL</button>
+                <button class="quite">QUITE</button>
+
+            </div>
+        </div>
     </header>
     <section class="content">
         <div class="container">
@@ -206,6 +208,7 @@
         </div>
     </section>
     <script src="js/script.js" type="module"></script>
+    <script src="js/chart.js" type="module"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </body>
 

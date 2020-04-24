@@ -27,17 +27,43 @@
 }
 
 .modal {
+    font-family: Andale Mono, monospace;
     max-width: 600px;
     margin: auto;
     margin-top: 20%;
     background-color: #ffffff;
     position: relative;
-    padding: 30px;
+    padding: 5px 10px 30px 10px;
     display: none;
 
+    h4 {
+        margin: 5px 30px 30px 0;
+        border-bottom: solid 1px lightgrey;
+    }
+
+
     p {
+        font-family: Brush Script MT, Brush Script Std, cursive;
         color: #ffa200;
     }
+
+    button {
+        margin-left: 500px;
+        outline: none;
+        font-family: Andale Mono, monospace;
+        color: white;
+        font-size: 15px;
+        background-color: #f58220;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 0;
+
+        &:hover {
+            background-color: #ffa200;
+            opacity: 1;
+        }
+    }
+
 }
 
 .modal.show {
@@ -45,17 +71,48 @@
 }
 
 .userModal {
+    font-family: Andale Mono, monospace;
     max-width: 600px;
     margin: auto;
     margin-top: 20%;
     background-color: #ffffff;
     position: relative;
-    padding: 30px;
+    padding: 5px 10px 30px 10px;
     display: none;
     display: none;
 
+    h4 {
+        margin: 5px 30px 30px 0;
+    }
+
     p {
         color: #ffa200;
+    }
+
+    button {
+        float: right;
+        outline: none;
+        font-family: Andale Mono, monospace;
+        color: white;
+        font-size: 15px;
+        background-color: #f58220;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 0;
+
+        &:hover {
+            background-color: #ffa200;
+            opacity: 1;
+        }
+    }
+
+    input {
+        border: lightgrey solid 1px;
+        border-radius: 4px;
+        width: 200px;
+        padding: 10px;
+        font-family: Andale Mono, monospace;
     }
 }
 
@@ -64,7 +121,10 @@
 }
 
 .logModal {
-    max-width: 600px;
+    font-family: Andale Mono, monospace;
+    font-size: 12px;
+    max-width: 300px;
+    height: 150px;
     margin: auto;
     margin-top: 20%;
     background-color: #ffffff;
@@ -73,8 +133,48 @@
     display: none;
     display: none;
 
+    h4 {
+        margin: 5px 20px 30px 20px;
+    }
+
     p {
-        color: green;
+        color: #ffa200;
+    }
+
+    .cancel {
+        float: right;
+        outline: none;
+        font-family: Andale Mono, monospace;
+        color: white;
+        font-size: 15px;
+        background-color: grey;
+        margin: 0 15px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 0;
+
+        &:hover {
+            background-color: lightgrey;
+            opacity: 1;
+        }
+    }
+
+    .quite {
+        float: right;
+        outline: none;
+        font-family: Andale Mono, monospace;
+        color: white;
+        font-size: 15px;
+        background-color: #f58220;
+        margin: 0 15px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 0;
+
+        &:hover {
+            background-color: #ffa200;
+            opacity: 1;
+        }
     }
 }
 
@@ -83,6 +183,20 @@
 }
 
 .modal .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+.userModal .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+}
+
+.logModal .btn-close {
     position: absolute;
     top: 0;
     right: 0;

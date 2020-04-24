@@ -1,0 +1,1111 @@
+.sidebar {
+  background-color: #333333;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  top: 0;
+  z-index: auto;
+  width: 188px;
+}
+
+.sidebar .sidebar-title a {
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 110px;
+}
+
+.sidebar .sidebar-title i {
+  font-size: 30px;
+  opacity: 1;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.sidebar .sidebar-title i:hover {
+  color: #f58220;
+  opacity: 1;
+}
+
+.sidebar ul {
+  text-align: left;
+  color: lightgrey;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar ul a {
+  padding: 15px 0 15px 10px;
+  text-align: center;
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.sidebar ul li {
+  font-family: Andale Mono, monospace;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 0;
+  border-left: 3px solid transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sidebar ul li:hover {
+  border-left: solid 3px #f58220;
+  background-color: rgba(211, 211, 211, 0.151);
+}
+
+.sidebar ul li:hover a i {
+  color: #f58220;
+  opacity: 1;
+}
+
+.sidebar i {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  opacity: 0.5;
+  margin-right: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sidebar p {
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 30px;
+  color: white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: 900;
+}
+
+.top-bar {
+  color: grey;
+  font-weight: 900;
+  text-align: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 62px;
+  border-bottom: lightgrey solid 1px;
+}
+
+.top-bar select {
+  color: grey;
+  font-family: Andale Mono, monospace;
+  border: lightgrey solid 1px;
+  font-size: 15px;
+  background-color: white;
+  width: 130px;
+  outline: none;
+  margin-left: 20px;
+}
+
+.top-bar table {
+  height: 100%;
+  padding: 5px 20px 5px 10px;
+  float: right;
+}
+
+.top-bar table td {
+  text-align: center;
+  width: 200px;
+  margin: 0;
+}
+
+.top-bar table .bell {
+  width: 50px;
+  border: none;
+}
+
+.top-bar table .user p {
+  top: 7px;
+  right: 90px;
+  font-family: Andale Mono, monospace;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.top-bar table .user i {
+  float: left;
+  font-size: 25px;
+}
+
+.top-bar table .user i:hover {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.top-bar table .logout {
+  width: 50px;
+  border: none;
+}
+
+.top-bar table .logout i {
+  font-size: 25px;
+}
+
+.top-bar table .logout i:hover {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.top-bar table i {
+  line-height: 20px;
+  color: #ffa200;
+  font-size: 20px;
+}
+
+.content {
+  padding-top: 70px;
+  padding-left: 188px;
+}
+
+.content .top-chart {
+  border-bottom: lightgrey solid 1px;
+  height: 47px;
+  text-align: left;
+}
+
+.content .top-chart p {
+  padding-top: 14px;
+  padding-left: 30px;
+  padding-bottom: 14px;
+  margin: 0;
+}
+
+.content .center-chart {
+  border-bottom: lightgrey solid 1px;
+  height: 111px;
+}
+
+.content .center-chart .calender {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.content .center-chart .calender .date-picker input {
+  line-height: 10px;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 3px;
+  border: solid 1px lightgrey;
+}
+
+.content .center-chart .calender .date-picker .refresh {
+  outline: none;
+  font-family: Andale Mono, monospace;
+  color: white;
+  font-size: 20px;
+  background-color: #f58220;
+  border-radius: 5px;
+  padding: 1px 10px;
+  border: 0;
+}
+
+.content .center-chart .calender .date-picker .refresh:hover {
+  background-color: #ffa200;
+  opacity: 1;
+}
+
+.content .center-chart .calender .date-picker .refresh i {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.content .bottom-chart .chart-photo {
+  text-align: center;
+  padding: 40px 0 75px 0;
+}
+
+.content .bottom-chart .chart-photo .chart-table {
+  min-width: 200px;
+  padding: 0 28% 35px 28%;
+  border-spacing: 30px 10px;
+}
+
+.content .bottom-chart .chart-photo .chart-table td {
+  padding: 10px 0 5px 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  width: 300px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.content .top-links {
+  border-bottom: lightgrey solid 1px;
+  height: 47px;
+}
+
+.content .top-links p {
+  padding-top: 14px;
+  padding-left: 30px;
+  padding-bottom: 14px;
+  margin: 0;
+}
+
+.content .add-links {
+  height: 105px;
+}
+
+.content .add-links .new-links {
+  outline: none;
+  font-family: Andale Mono, monospace;
+  color: white;
+  font-size: 25px;
+  background-color: #f58220;
+  margin: 25px 0;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.content .add-links .new-links:hover {
+  background-color: #ffa200;
+  opacity: 1;
+}
+
+.content .add-links .button-links {
+  text-align: center;
+}
+
+.content .center-links {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.content .personal-data {
+  border-bottom: lightgrey solid 1px;
+  height: 47px;
+}
+
+.content .personal-data p {
+  padding-top: 14px;
+  padding-left: 30px;
+  padding-bottom: 14px;
+  margin: 0;
+}
+
+.content .name .name-data {
+  padding: 30px 0 30px 30%;
+  border-bottom: solid 1px lightgrey;
+}
+
+.content .name .contact-data {
+  padding: 30px 0 30px 30%;
+  border-bottom: solid 1px lightgrey;
+}
+
+.content .name .wallet-data {
+  padding: 30px 0 30px 30%;
+  border-bottom: solid 1px lightgrey;
+}
+
+.content .name .password-data {
+  padding: 30px 0 30px 30%;
+  border-bottom: solid 1px lightgrey;
+}
+
+.content .name label {
+  min-width: 220px;
+  text-align: left;
+  line-height: 35px;
+  font-size: 15px;
+  float: left;
+}
+
+.content .name input {
+  border: 1px solid lightgrey;
+  width: 200px;
+  outline: none;
+  font-size: 15px;
+}
+
+.content .table-links table {
+  border-spacing: 0;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.content .table-links table td {
+  padding: 20px 5px 20px 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.content .table-links table td a {
+  text-decoration: none;
+  color: grey;
+}
+
+.content .table-links table td i:nth-child(2) {
+  margin-left: 10px;
+}
+
+.content .table-links table tr:hover {
+  background-color: rgba(211, 211, 211, 0.151);
+}
+
+.content .table-links table tr:hover .fa-link {
+  color: #f58220;
+  opacity: 1;
+}
+
+.content .table-payout {
+  padding: 30px 0;
+}
+
+.content .table-payout table {
+  border-spacing: 0;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.content .table-payout table thead th {
+  font-weight: 900;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.content .table-payout table td {
+  padding: 30px 5px 30px 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.content .table-details {
+  padding: 30px 0;
+}
+
+.content .table-details table {
+  border-spacing: 0;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.content .table-details table th {
+  font-weight: 900;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.content .table-details table td {
+  padding: 30px 5px 30px 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.content .add-postback {
+  height: 105px;
+  padding-right: 50px;
+  padding-top: 37px;
+}
+
+.content .add-postback .new-postback {
+  outline: none;
+  font-family: Andale Mono, monospace;
+  color: white;
+  font-size: 15px;
+  background-color: #f58220;
+  margin: 15px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.content .add-postback .new-postback:hover {
+  background-color: #ffa200;
+  opacity: 1;
+}
+
+.content .add-postback .button-postback {
+  text-align: right;
+}
+
+.content .postback {
+  padding-top: 30px;
+}
+
+.content .postback-table {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.content .postback-table p {
+  top: 300px;
+}
+
+.content .postback-table .signups-table {
+  text-align: left;
+  width: 770px;
+  height: 250px;
+  margin-right: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.content .postback-table .deposit-table {
+  text-align: left;
+  width: 770px;
+  margin-left: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.content .postback-type {
+  padding: 30px;
+}
+
+.content .postback-type select {
+  width: 300px;
+  margin: 0 50px;
+  text-decoration: none;
+  outline: none;
+  color: grey;
+  font-family: Andale Mono, monospace;
+  border: lightgrey solid 1px;
+  font-size: 15px;
+  background-color: white;
+  outline: none;
+}
+
+.content .postback-sends {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.content .postback-sends div {
+  border: 1px solid lightgrey;
+  width: 794px;
+  height: 300px;
+}
+
+.content .postback-sends .inputs {
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F2;
+  color: grey;
+}
+
+.container {
+  font-family: Andale Mono, monospace;
+  font-size: 15px;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  margin: 0 0 10px 10px;
+  border-radius: 3px;
+}
+
+@media (min-width: 611px) and (max-width: 1024px) {
+  .top-bar table {
+    font-size: 10px;
+  }
+  .top-bar table .user p {
+    top: 8px;
+    font-size: 13px;
+    right: 65px;
+  }
+  .top-bar table .user i {
+    font-size: 20px;
+  }
+  .top-bar table .logout i {
+    padding-left: 40px;
+  }
+  .top-bar table i {
+    font-size: 20px;
+  }
+  .top-bar table td {
+    width: 150px;
+  }
+  .top-bar select {
+    font-size: 15px;
+    width: 70px;
+  }
+  .container {
+    width: 100%;
+  }
+  .container .links .center-links {
+    padding: 0;
+  }
+  .container .links .center-links table {
+    font-size: 14px;
+    width: 100%;
+    padding: 0;
+  }
+  .container .links .center-links table p {
+    padding: 0 35px 0 35px;
+  }
+  .container .links .new-links {
+    font-size: 15px;
+  }
+  .content {
+    padding: 70px 0 0 185px;
+  }
+  .content .bottom-chart .chart-photo {
+    padding: 0 0 30px 0;
+  }
+  .content .bottom-chart .chart-photo .chart-table {
+    padding: 0 10%;
+  }
+  .content .bottom-chart .chart-photo .chart-table td {
+    font-size: 12px;
+  }
+  .content .bottom-chart .chart-photo img {
+    width: 100%;
+  }
+  .content .center-chart .calender .date-picker input {
+    font-size: 13px;
+  }
+  .content .center-chart .calender .date-picker .refresh {
+    font-size: 15px;
+  }
+  .content .center-chart .calender .date-picker .refresh i {
+    font-size: 15px;
+  }
+  .content .table-details {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-details table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 10px;
+  }
+  .content .table-details table th {
+    font-weight: 900;
+    color: black;
+    padding-bottom: 20px;
+  }
+  .content .table-details table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .table-payout {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-payout table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    margin: 0 10px;
+  }
+  .content .table-payout table thead th {
+    padding: 0;
+  }
+  .content .table-payout table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .name {
+    text-align: center;
+  }
+  .content .name .name-data {
+    padding: 10px 0 10px 130px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .contact-data {
+    padding: 10px 0 10px 130px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .wallet-data {
+    padding: 10px 0 10px 130px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .password-data {
+    padding: 10px 0 10px 130px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name label {
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .content .name input {
+    outline: none;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 610px) {
+  .top-bar {
+    top: 62px;
+    right: 0;
+  }
+  .top-bar table {
+    font-size: 10px;
+    padding: 0;
+  }
+  .top-bar table .user p {
+    top: 13px;
+    font-size: 10px;
+    right: 60px;
+  }
+  .top-bar table .user i {
+    font-size: 25px;
+  }
+  .top-bar table i {
+    font-size: 25px;
+  }
+  .top-bar table td {
+    width: 150px;
+  }
+  .top-bar select {
+    font-size: 15px;
+    width: 90px;
+  }
+  .sidebar {
+    height: 62px;
+    width: 100%;
+  }
+  .sidebar p {
+    margin-bottom: 0;
+  }
+  .sidebar ul {
+    display: none;
+    background-color: #333333;
+  }
+  .sidebar ul li {
+    font-family: Andale Mono, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 0;
+    border-left: 3px solid transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .sidebar ul li:hover {
+    border-left: solid 3px #f58220;
+    background-color: rgba(211, 211, 211, 0.151);
+  }
+  .sidebar ul li:hover a {
+    text-decoration: none;
+  }
+  .sidebar ul li:hover a i {
+    color: #f58220;
+    opacity: 1;
+  }
+  .sidebar .side-nav.show {
+    display: block;
+  }
+  .sidebar .sidebar-title a {
+    color: white;
+    text-decoration: none;
+    margin-left: 83%;
+    left: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .container .links .center-links {
+    padding: 0;
+  }
+  .container .links .center-links table {
+    font-size: 14px;
+    width: 100%;
+    padding: 0;
+  }
+  .container .links .center-links table p {
+    padding: 0 10px 0 10px;
+  }
+  .container .links .new-links {
+    font-size: 15px;
+  }
+  .content {
+    padding: 130px 0 0 0;
+  }
+  .content .bottom-chart .chart-photo {
+    padding: 0 0 30px 0;
+  }
+  .content .bottom-chart .chart-photo .chart-table {
+    padding: 0;
+  }
+  .content .bottom-chart .chart-photo .chart-table td {
+    font-size: 12px;
+  }
+  .content .bottom-chart .chart-photo img {
+    width: 100%;
+  }
+  .content .center-chart .calender .date-picker input {
+    font-size: 13px;
+  }
+  .content .center-chart .calender .date-picker .refresh {
+    font-size: 15px;
+  }
+  .content .center-chart .calender .date-picker .refresh i {
+    font-size: 15px;
+  }
+  .content .table-details {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-details table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 10px;
+  }
+  .content .table-details table th {
+    font-weight: 900;
+    color: black;
+    padding-bottom: 20px;
+  }
+  .content .table-details table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .table-payout {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-payout table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    margin: 0 10px;
+  }
+  .content .table-payout table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .name {
+    text-align: center;
+  }
+  .content .name .name-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .contact-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .wallet-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .password-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name label {
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .content .name input {
+    outline: none;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 375px) {
+  .top-bar {
+    top: 62px;
+    right: 0;
+  }
+  .top-bar table {
+    font-size: 10px;
+    padding: 0;
+  }
+  .top-bar table .user {
+    width: 100px;
+  }
+  .top-bar table .user p {
+    display: none;
+  }
+  .top-bar table .user i {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .top-bar table .logout i {
+    padding-left: 40px;
+  }
+  .top-bar table i {
+    font-size: 20px;
+  }
+  .top-bar table td {
+    width: 150px;
+  }
+  .top-bar select {
+    font-size: 12px;
+    width: 80px;
+    margin-left: 10px;
+  }
+  .sidebar {
+    height: 62px;
+    width: 100%;
+  }
+  .sidebar p {
+    margin-bottom: 0;
+  }
+  .sidebar ul {
+    display: none;
+    background-color: #333333;
+  }
+  .sidebar ul li {
+    font-family: Andale Mono, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 0;
+    border-left: 3px solid transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .sidebar ul li:hover {
+    border-left: solid 3px #f58220;
+    background-color: rgba(211, 211, 211, 0.151);
+  }
+  .sidebar ul li:hover a {
+    text-decoration: none;
+  }
+  .sidebar ul li:hover a i {
+    color: #f58220;
+    opacity: 1;
+  }
+  .sidebar .side-nav.show {
+    display: block;
+  }
+  .sidebar .sidebar-title a {
+    text-decoration: none;
+    color: white;
+    margin-left: 80%;
+    left: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .container .links .center-links {
+    padding: 0;
+  }
+  .container .links .center-links table {
+    font-size: 10px;
+    width: 100%;
+    padding: 0;
+  }
+  .container .links .center-links table p {
+    padding: 0 10px 0 10px;
+  }
+  .container .links .new-links {
+    font-size: 15px;
+  }
+  .content {
+    padding: 130px 0 0 0;
+  }
+  .content .bottom-chart .chart-photo {
+    padding: 0 0 30px 0;
+  }
+  .content .bottom-chart .chart-photo .chart-table {
+    padding: 0;
+  }
+  .content .bottom-chart .chart-photo .chart-table td {
+    font-size: 12px;
+  }
+  .content .bottom-chart .chart-photo img {
+    width: 100%;
+  }
+  .content .center-chart .calender .date-picker input {
+    font-size: 11px;
+  }
+  .content .center-chart .calender .date-picker .refresh {
+    font-size: 13px;
+  }
+  .content .center-chart .calender .date-picker .refresh i {
+    font-size: 13px;
+  }
+  .content .table-details {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-details table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 10px;
+  }
+  .content .table-details table th {
+    font-weight: 900;
+    color: black;
+    padding-bottom: 20px;
+  }
+  .content .table-details table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .table-payout {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .content .table-payout table {
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    margin: 0 10px;
+  }
+  .content .table-payout table td {
+    padding: 30px 20px 30px 20px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .content .personal-data {
+    border-bottom: lightgrey solid 1px;
+    height: 47px;
+  }
+  .content .personal-data p {
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-bottom: 14px;
+    margin: 0;
+  }
+  .content .name {
+    text-align: center;
+  }
+  .content .name .name-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .contact-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .wallet-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name .password-data {
+    padding: 10px 10px 10px 10px;
+    border-bottom: solid 1px lightgrey;
+  }
+  .content .name label {
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+  }
+  .content .name input {
+    outline: none;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: auto;
+  padding: 30px;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.modal {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20%;
+  background-color: #ffffff;
+  position: relative;
+  padding: 30px;
+  display: none;
+}
+
+.modal p {
+  color: #ffa200;
+}
+
+.modal.show {
+  display: block;
+}
+
+.userModal {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20%;
+  background-color: #ffffff;
+  position: relative;
+  padding: 30px;
+  display: none;
+  display: none;
+}
+
+.userModal p {
+  color: #ffa200;
+}
+
+.userModal.show {
+  display: block;
+}
+
+.logModal {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20%;
+  background-color: #ffffff;
+  position: relative;
+  padding: 30px;
+  display: none;
+  display: none;
+}
+
+.logModal p {
+  color: green;
+}
+
+.logModal.show {
+  display: block;
+}
+
+.modal .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+}
+/*# sourceMappingURL=style.css.map */
