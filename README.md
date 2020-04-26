@@ -1,1 +1,1 @@
-# projekt-indywidualny
+https://krzysztof-g.github.io/projekt-indywidualny/dist/
